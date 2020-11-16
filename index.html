@@ -22,10 +22,11 @@
   <header>HTML Documentation</header>
   <ul>
     <li><a class="nav-link" href="#introduction">Introduction</a></li>
-    <li><a class="nav-link" href="#html">What is HTML?</a></li>
-    <li><a class="nav-link" href="#intro3">The Basics</a></li>
-    <li><a class="nav-link" href="#intro4">A Brief Overview</a></li>
-    <li><a class="nav-link" href="#intro5">References</a></li>
+    <li><a class="nav-link" href="#what_is_HTML?">What is HTML?</a></li>
+    <li><a class="nav-link" href="#the_basics">The Basics</a></li>
+    <li><a class="nav-link" href="#a_brief_overview">A Brief Overview</a></li>
+    <li><a class="nav-link" href="#HTML_paragraphs">HTML Paragraphs</a></li>
+    <li><a class="nav-link" href="#references">References</a></li>
 </nav>
 
 <!-- Articles
@@ -33,7 +34,7 @@
 
 <main id="main-doc">
   <section class="main-section" id="introduction">
-    <h1 header>Introduction</h1></header>
+    <header><h1>Introduction</h1></header>
   <article>
    <p>Hi! 
      This is my Freecodecamp technical documentation task. I have used HTML and CSS to design this webpage,
@@ -45,13 +46,22 @@
   </article>
     </section>
   
-  <section class="main-section" id="html">
-    <h1 header>What is HTML?</h1></header>
+  <section class="main-section" id="what_is_HTML?">
+    <header><h1>What is HTML?</h1></header>
   <article>
     <p>
       Hypertext Markup Language is the standard markup language for documents designed to be displayed in a web browser. 
       It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript. 
     </p>
+		<ul>
+			<li>HTML stands for Hyper Text Markup Language</li>
+			<li>HTML describes the structure of Web pages using markup</li>
+			<li>HTML elements are the building blocks of HTML pages</li>
+		  <li>HTML elements are represented by tags</li>
+		  <li>HTML tags label pieces of content such as "heading", "paragraph", "table", and so on</li>
+		  <li>Browsers do not display the HTML tags, but use them to render the content of the page</li>
+    </ul>
+    
     <p>Here is an example of HTML code in practice, below we can see each line of code explained.</p>   
 
     <pre><code>
@@ -68,3 +78,67 @@
       &lt;/body&gt;
       &lt;/html&gt;
     </code></pre>
+
+    <section class="main-section" id="the_basics">
+      <header><h1>The Basics</h1></header>
+    <article>
+
+      <p>In this chapter we will show some basic HTML examples.</p>
+      <p>Don't worry if we use tags you have not learned about yet.</p>
+      
+      <h2>HTML Documents:</h2>
+
+      <p>All HTML documents must start with a document type declaration: <!DOCTYPE html&gt;</p>
+      <p>The HTML document itself begins with &lt;html&gt; and ends with &lt;/html&gt;.</p>
+      <p>The visible part of the HTML document is between &lt;body&gt; and &lt;/body&gt;.</p>
+      
+      <h2>Example:</h2>
+
+      <pre><code>
+      &lt;!DOCTYPE html&gt;
+      &lt;html&gt;
+      &lt;head&gt;
+        
+      &lt;h1&gt;My First Heading&lt;/h1&gt;
+      &lt;p&gt;My first paragraph.&lt;/p&gt;
+        
+      &lt;/body&gt;
+      &lt;/html&gt;
+      </code></pre>
+    </article>
+
+    <section class="main-section" id="a_brief_overview">
+      <header><h1>A Brief Overview</h1></header>
+      <article>
+
+      </article>
+
+    <section class="main-section" id="HTML_paragraphs">
+      <header><h1>HTML Paragraphs</h1></header>
+      <article>
+        <p>The HTML &lt;p> element defines a paragraph:</p>
+
+	    <pre><code>
+       &lt;p>This is a paragraph. &lt;p>
+       &lt;p> This is another paragraph. &lt;p>
+       </code></pre>
+
+    		<p><b>NOTE:</b> Browsers automatically add some white space (a margin) before and after a paragraph.</p>
+    		<h2>HTML Display</h2>
+				<ul>
+					<li>You cannot be sure how HTML will be displayed.</li>
+					<li>Large or small screens, and resized windows will create different results.</li>
+					<li>With HTML, you cannot change the output by adding extra spaces or extra lines in your HTML code.</li>
+					<li>The browser will remove any extra spaces and extra lines when the page is displayed:</li>
+				</ul>
+
+      </article>
+
+      <section class="main-section" id="references">
+        <header><h1>References</h1></header>
+        <article>
+
+          <p>https://www.w3schools.com/html/default.asp</p>
+  
+        </article>
+

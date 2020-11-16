@@ -48,23 +48,36 @@ body {
 h1 {
   text-align: left;
   font-family: 'Lora', serif;
+  font-size: 30px;
 }
 
+h2{
+  text-align: left;
+  font-family: 'Lora', serif;
+  font-size: 18px;
+}
 p {
   font-family: 'Merriweather', serif;
   font-size: 12px; 
 }
 
-code {
-  display: block;
+code{
+  display:block;
   text-align: left;
-  position: relative;
   white-space: pre;
-  word-break: normal;
+  position: relative;
+  line-height: 2;
+  background-color:#494a50;
+  padding-right: 10px;
+  margin-right: 30px;
+  border-radius:5px;
+	color: white;
+	font-size: 1.2em;
+	word-break: normal;
   word-wrap: normal;
-  line-height: 1.5;
-  background-color: #f7f7f7;
-  padding: 5px;
-  margin: 5px;
-  border-radius: 5px;
+}
+
+ul{ 
+  font-family: 'Merriweather', serif;
+  font-size: 12px; 
 }
