@@ -5,7 +5,7 @@ This is a technical documentation page to highlight various skills and learnt te
 
 ## Preview
 
-:package: ## Built with
+## Built with
 - [GitHub Pages](https://pages.github.com)
 - [HTML 5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 - [CSS 3](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps)
